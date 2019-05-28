@@ -1,15 +1,25 @@
 {
   "name": "drug_web_cl",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
+    "antd": "^3.15.2",
+    "babel-plugin-import": "^1.11.0",
+    "customize-cra": "^0.2.12",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
     "react": "^16.8.5",
+    "react-app-rewired": "^2.1.1",
     "react-dom": "^16.8.5",
-    "react-scripts": "2.1.8"
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "viser-react": "^2.4.6"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -21,5 +31,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy": "http://localhost:7001/"
 }
