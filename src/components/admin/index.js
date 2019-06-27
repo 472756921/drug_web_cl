@@ -5,8 +5,6 @@ import { role, status } from '../../common';
 import { request, interfaces } from '../../interface';
 const RadioGroup = Radio.Group;
 
-
-
 const formItemLayout = {
     labelCol: {
         xs: { span: 24 },
